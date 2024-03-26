@@ -1,9 +1,4 @@
-provider "google" {
-  project = "proven-dryad-417822"
-  region  = "us-central1"
-}
-
-module "qa_gke_cluster" {
+module "qa-gke_cluster" {
     source = "git@github.com:birnazarova/tf-modules.git//gke"
     service_account_id           = "qa-gke-service-account"
     service_account_display_name = "QA GKE Service Account"
