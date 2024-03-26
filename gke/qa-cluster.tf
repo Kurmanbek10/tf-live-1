@@ -1,5 +1,5 @@
 module "qa-gke_cluster" {
-  source                       = "git@github.com:birnazarova/tf-modules.git//gke"
+  source                       = "github.com/birnazarova/tf-modules.git//gke"
   service_account_id           = "qa-gke-service-account"
   service_account_display_name = "QA GKE Service Account"
   cluster_name                 = "qa-cluster"
