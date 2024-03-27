@@ -1,7 +1,7 @@
 provider "google" {
-  project     = "high-theme-384006"
+  project     = "terraform-project-418516"
   region      = "us-central1"
-  credentials = "high-theme-384006-9c0dafef862c.json"
+  credentials = "/Users/kurmanbekdzenaliev/git-repositories/evening_classes/project_modules/tf-live-1/gke/terraform-project-418516-2c9c1d0cf837.json"
 }
 
 resource "google_service_account" "github" {

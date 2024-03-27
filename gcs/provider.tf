@@ -1,4 +1,4 @@
 provider "google" {
-  project = "proven-dryad-417822"
+  project = "terraform-project-418516"
   region  = "us-central1"
 }
